@@ -77,6 +77,20 @@ sudo apt-get upgrade
 sudo apt-get install postgresql-10 pgadmin4
 ```
 
+## kleopatra
+```
+sudo apt-get update
+sudo apt-get install kleopatra
+```
+
+## postman
+```
+wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+sudo tar -xzf postman.tar.gz -C /opt
+rm postman.tar.gz
+sudo ln -s /opt/Postman/Postman /usr/bin/postman
+```
+
 ## slack
 ```
 sudo snap install slack --classic
