@@ -77,6 +77,11 @@ sudo apt-get upgrade
 sudo apt-get install postgresql-10 pgadmin4
 ```
 
+## openvpn
+```
+sudo apt install openvpn easy-rsa
+```
+
 ## kleopatra
 ```
 sudo apt-get update
