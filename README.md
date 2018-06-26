@@ -133,8 +133,8 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
 #### extensions
-* lastpass
-* adblock
+* LastPass
+* AdBlock
 
 ## heroku
 ```
