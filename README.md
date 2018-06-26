@@ -122,3 +122,8 @@ sudo chmod +x /opt/idea-IC-181.5281.24/bin/idea.sh
 * Leiningen
 * cursive
 * Markdown support
+
+## heroku
+```
+sudo snap install heroku --classic
+```
