@@ -122,6 +122,8 @@ sudo chmod +x /opt/idea-IC-181.5281.24/bin/idea.sh
 * Leiningen
 * cursive
 * Markdown support
+* HashiCorp Terraform Language support
+* Docker integration
 
 ## heroku
 ```
