@@ -118,3 +118,7 @@ sudo wget -P ~/Downloads https://download.jetbrains.com/idea/ideaIC-2018.1.5.tar
 sudo tar xf ~/Downloads/ideaIC-2018.1.5.tar.gz -C /opt/
 sudo chmod +x /opt/idea-IC-181.5281.24/bin/idea.sh
 ```
+#### plugins
+* Leiningen
+* cursive
+* Markdown support
