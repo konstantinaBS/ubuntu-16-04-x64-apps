@@ -11,6 +11,16 @@ sudo apt-get install default-jdk
 sudo apt-get install wget
 ```
 
+## rlwrap
+
+sudo apt-get install rlwrap
+
+## clojure 1.9.0.391
+
+curl -O https://download.clojure.org/install/linux-install-1.9.0.391.sh
+chmod +x linux-install-1.9.0.391.sh
+sudo ./linux-install-1.9.0.391.sh
+
 ## leiningen
 
 ```
