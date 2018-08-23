@@ -6,25 +6,24 @@ sudo apt-get update
 sudo apt-get install default-jdk
 ```
 
-## wget
-```
-sudo apt-get install wget
-```
-
 ## rlwrap
-
+```
 sudo apt-get install rlwrap
+```
 
 ## clojure 1.9.0.391
-
 ```
 curl -O https://download.clojure.org/install/linux-install-1.9.0.391.sh
 chmod +x linux-install-1.9.0.391.sh
 sudo ./linux-install-1.9.0.391.sh
 ```
 
-## leiningen
+## wget
+```
+sudo apt-get install wget
+```
 
+## leiningen
 ```
 sudo wget -P /usr/local/bin https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 sudo chmod +x /usr/local/bin/lein
