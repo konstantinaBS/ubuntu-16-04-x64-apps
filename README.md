@@ -123,7 +123,7 @@ sudo apt-get update
 sudo apt-get install -f toggldesktop
 ```
 
-## intellij 2018.1.5
+## intellij 2018.1.6
 ```
 sudo wget -P ~/Downloads https://download.jetbrains.com/idea/ideaIC-2018.1.6.tar.gz
 sudo tar xf ~/Downloads/ideaIC-2018.1.6.tar.gz -C /opt/
