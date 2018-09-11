@@ -67,6 +67,9 @@ sudo chmod +x /usr/local/bin/terraform
 ```
 
 ## aws-cli - python 3 - pip
+
+### Using standalone pip, global python
+
 ```
 curl -O https://bootstrap.pypa.io/get-pip.py
 python get-pip.py --user
@@ -76,6 +79,23 @@ source ~/.bashrc
 sudo apt install python3-pip
 pip install --upgrade pip
 pip install awscli --upgrade --user
+```
+
+### Using Conda
+
+Conda is a package manager for python that, though optional, allows for a better management of environments and I prefer to use it over pip because it's much more flexible. Miniconda is a software bundle that contains python, pip and conda among others, all isolated from the rest of the system.
+
+```
+curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh # Say yes to all user prompts
+source ~/.bashrc
+```
+
+At this point, to verify that all's well, `which pip` and `which python` should both point to the installation directory of miniconda, e.g. `$HOME/miniconda3/bin/pip` and `$HOME/miniconda3/bin/python`
+```
+pip install pip -U
+pip install awscli
 ```
 
 ## pgadmin 4
