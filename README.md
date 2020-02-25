@@ -59,10 +59,10 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-## terraform 0.11.7
+## terraform 0.11.14
 ```
-sudo wget -P ~/Downloads https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip
-sudo unzip ~/Downloads/terraform_0.11.7_linux_amd64.zip -d /usr/local/bin
+sudo wget -P ~/Downloads https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_linux_amd64.zip
+sudo unzip ~/Downloads/terraform_0.11.14_linux_amd64.zip -d /usr/local/bin
 sudo chmod +x /usr/local/bin/terraform
 ```
 
